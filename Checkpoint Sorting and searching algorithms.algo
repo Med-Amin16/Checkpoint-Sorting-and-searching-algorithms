@@ -1,0 +1,10 @@
+ALGORITHM InsertionSort(arr)
+BEGIN 
+1. for i = 1 to length(arr) - 1 do
+2.     j = i
+3.     while j > 0 and arr[j-1] > arr[j] do
+4.         swap arr[j] and arr[j-1]
+5.         j = j - 1
+6.     end while
+7. end for
+END
